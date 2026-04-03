@@ -15,11 +15,11 @@ Required packages: pip install -r requirements.txt
 Run: Self_supervised_learning_based_convolutional_Autoencoder.ipynb
 Results will be saved in Result/ folder
 ### Key Parameters to Modify
-learning_rate
-batch_size
-epochs
-'p_weight'
-'init_out_ch1'
+- learning_rate
+- batch_size
+- epochs
+- 'p_weight'
+- 'init_out_ch1'
 ## Project Structure
 Self_supervised_learning_based_convolutional_Autoencoder.ipynb # Main execution file Data/ # Data processing scripts Result/ # Output directory
 
