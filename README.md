@@ -9,11 +9,11 @@ This code repository implements training and evaluation algorithms for three Sel
 
 ## Quick Start
 ### Requirements
-Python 3.8+
-Required packages: pip install -r requirements.txt
+- Python 3.8+
+- Required packages: pip install -r requirements.txt
 ### Running the Model
-Run: Self_supervised_learning_based_convolutional_Autoencoder.ipynb
-Results will be saved in Result/ folder
+1. Run: Self_supervised_learning_based_convolutional_Autoencoder.ipynb
+2. Results will be saved in Result/ folder
 ### Key Parameters to Modify
 - learning_rate
 - batch_size
