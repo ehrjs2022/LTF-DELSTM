@@ -6,7 +6,7 @@ This repository provides the source code to reproduce the results presented in t
 > A Lightweight Multi-Horizon Forecasting Framework for Operational Water Quality Management in Reservoir Systems(On the Review), Environmental Modelling & Software, 2026
 
 ## Authors
-Dogeon Lee, Jihoon Shin, YoonKyung Cha (수정 필요)
+Dogeon Lee, Jihoon Shin, Taeseung Park, Jaegwan Park, Jonggyu Jung, YoonKyung Cha
 Abstract
 This code repository implements the training and evaluation pipelines for the proposed LTF-EDLSTM model, along with five comparison models: LSTM, GRU, BiLSTM, Transformer, and Temporal Fusion Transformer (TFT). The repository also includes code for performance analysis and visualization based on the final optimized version of each model.
 
@@ -43,10 +43,6 @@ This code repository implements the training and evaluation pipelines for the pr
 ## Data
 Data will be made available on request
 ## Project Structure
-Self_supervised_learning_based_convolutional_Autoencoder.ipynb # Main execution file Data/ # Data processing scripts Result/ # Output directory
-
-## Project Structure
-
 ```text
 Project/
 ├── Turbidity/
