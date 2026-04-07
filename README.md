@@ -3,7 +3,7 @@ Encoder-decoder-based forecasting framework for water quality prediction using e
 
 This repository provides the source code to reproduce the results presented in the paper:
 
-> A Lightweight Multi-Horizon Forecasting Framework for Operational Water Quality Management in Reservoir Systems(On the > > > Review), Environmental Modelling & Software, 2026
+> A Lightweight Multi-Horizon Forecasting Framework for Operational Water Quality Management in Reservoir Systems(On the Review), Environmental Modelling & Software, 2026
 
 ## Authors
 Bongseok Jeong, Jihoon Shin, YoonKyung Cha
