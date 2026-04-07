@@ -48,11 +48,25 @@ Self_supervised_learning_based_convolutional_Autoencoder.ipynb # Main execution 
 ## Project Structure
 
 ```text
-[Target variable folder]/
-├── Model_development_LTF-EDLSTM_Turbidity.ipynb      # Training notebook for the proposed LTF-EDLSTM model
-├── Model_development_Singlemodel_Turbidity.ipynb     # Training notebook for the single-model baselines (LSTM, GRU, BiLSTM)
-├── Model_development_Transformer_Turbidity.ipynb     # Training notebook for the Transformer model
-├── Model_development_TFT_Turbidity.ipynb             # Training notebook for the Temporal Fusion Transformer (TFT)
-├── Performance_Check_Turbidity.ipynb                 # Performance evaluation and visualization for the final selected models
-└── Model/                                            # Saved pickle files for trained models under different hyperparameter settings
-
+Project/
+├── Turbidity/
+│   ├── Model_development_LTF-EDLSTM_Turbidity.ipynb
+│   ├── Model_development_Singlemodel_Turbidity.ipynb
+│   ├── Model_development_Transformer_Turbidity.ipynb
+│   ├── Model_development_TFT_Turbidity.ipynb
+│   ├── Performance_Check_Turbidity.ipynb
+│   └── Model/
+├── WTemp/
+│   ├── Model_development_LTF-EDLSTM_WTemp.ipynb
+│   ├── Model_development_Singlemodel_WTemp.ipynb
+│   ├── Model_development_Transformer_WTemp.ipynb
+│   ├── Model_development_TFT_WTemp.ipynb
+│   ├── Performance_Check_WTemp.ipynb
+│   └── Model/
+├── pH/
+│   ├── Model_development_LTF-EDLSTM_pH.ipynb
+│   ├── Model_development_Singlemodel_pH.ipynb
+│   ├── Model_development_Transformer_pH.ipynb
+│   ├── Model_development_TFT_pH.ipynb
+│   ├── Performance_Check_pH.ipynb
+│   └── Model/
