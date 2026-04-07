@@ -6,17 +6,33 @@ This repository provides the source code to reproduce the results presented in t
 > A Lightweight Multi-Horizon Forecasting Framework for Operational Water Quality Management in Reservoir Systems(On the Review), Environmental Modelling & Software, 2026
 
 ## Authors
-Dogeon Lee, Jihoon Shin, YoonKyung Cha
+Dogeon Lee, Jihoon Shin, YoonKyung Cha (수정 필요)
 Abstract
 This code repository implements the training and evaluation pipelines for the proposed LTF-EDLSTM model, along with five comparison models: LSTM, GRU, BiLSTM, Transformer, and Temporal Fusion Transformer (TFT). The repository also includes code for performance analysis and visualization based on the final optimized version of each model.
 
 ## Quick Start
 ### Requirements
-- Python 3.8+
+- Python 3.11+
 - Required packages: pip install -r requirements.txt
 ### Running the Model
-1. Run: Self_supervised_learning_based_convolutional_Autoencoder.ipynb
-2. Results will be saved in Result/ folder
+1. Navigate to the folder corresponding to the target prediction variable.
+
+2. To train the proposed model, run:
+   - `Model_development_LTF-EDLSTM_Turbidity.ipynb`
+
+3. To train the comparison models, run:
+   - `Model_development_Singlemodel_Turbidity.ipynb`
+   - `Model_development_Transformer_Turbidity.ipynb`
+   - `Model_development_TFT_Turbidity.ipynb`
+
+4. For other prediction targets, run the corresponding notebooks in each target-specific folder, where `Turbidity` in the filename is replaced with `WTemp` or `pH`.
+
+5. After model training, the trained model pickle files for each hyperparameter setting are saved in the `Model/` directory within each target-specific folder.
+
+6. To evaluate the final selected models and reproduce the performance and visualization results used in the paper, run:
+   - `Performance_Check_Turbidity.ipynb`
+
+7. For other prediction targets, use the corresponding performance check notebook with `Turbidity` replaced by `WTemp` or `pH`.
 ### Key Parameters to Modify
 - hidden_dims
 - batch_size
