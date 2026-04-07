@@ -1,6 +1,9 @@
 # LTF-DELSTM
-SSL-DL
-Code accompanying the paper "Development of a Self-Supervised Deep Learning Framework for Chlorophyll-a Retrieval in Data-Scarce Inland Waters" submitted to Environmental Modelling & Software.
+Encoder-decoder-based forecasting framework for water quality prediction using environmental, meteorological, and hydrological data, designed to incorporate future known variables and account for the characteristics of individual data sources.
+
+This repository provides the source code to reproduce the results presented in the paper:
+
+> A Lightweight Multi-Horizon Forecasting Framework for Operational Water Quality Management in Reservoir Systems(On the > > > Review), Environmental Modelling & Software, 2026
 
 ## Authors
 Bongseok Jeong, Jihoon Shin, YoonKyung Cha
@@ -15,13 +18,13 @@ This code repository implements training and evaluation algorithms for three Sel
 1. Run: Self_supervised_learning_based_convolutional_Autoencoder.ipynb
 2. Results will be saved in Result/ folder
 ### Key Parameters to Modify
-- learning_rate
+- hidden_dims
 - batch_size
-- epochs
-- 'p_weight'
-- 'init_out_ch1'
+- num_layer
+- learning_rate
+- known_feature_dim
+- loss_nam
+## Data
+Data will be made available on request
 ## Project Structure
 Self_supervised_learning_based_convolutional_Autoencoder.ipynb # Main execution file Data/ # Data processing scripts Result/ # Output directory
-
-### Satellite Imagery Dataset
-Due to large file sizes (>1GB), the complete satellite imagery dataset is available at:
