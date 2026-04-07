@@ -6,9 +6,9 @@ This repository provides the source code to reproduce the results presented in t
 > A Lightweight Multi-Horizon Forecasting Framework for Operational Water Quality Management in Reservoir Systems(On the Review), Environmental Modelling & Software, 2026
 
 ## Authors
-Bongseok Jeong, Jihoon Shin, YoonKyung Cha
+Dogeon Lee, Jihoon Shin, YoonKyung Cha
 Abstract
-This code repository implements training and evaluation algorithms for three Self-Supervised Learning Deep Learning (SSL-DL) models along with three baseline comparison models. The repository also includes visualization code for generating all figures presented in the paper.
+This code repository implements the training and evaluation pipelines for the proposed LTF-EDLSTM model, along with five comparison models: LSTM, GRU, BiLSTM, Transformer, and Temporal Fusion Transformer (TFT). The repository also includes code for performance analysis and visualization based on the final optimized version of each model.
 
 ## Quick Start
 ### Requirements
