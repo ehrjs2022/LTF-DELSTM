@@ -47,4 +47,4 @@ Data will be made available on request
   - `Model_development_*.ipynb`: notebooks for model training and development
   - `Performance_Check_*.ipynb`: notebooks for reproducing the final performance and visualization results used in the paper
   - `Model/`: saved trained model files for different hyperparameter settings
-  - `SaaW_WQ/`: shared modules for model training, evaluation, performance analysis, and visualization
+  - `SaaS_WQ/`: shared modules for model training, evaluation, performance analysis, and visualization
