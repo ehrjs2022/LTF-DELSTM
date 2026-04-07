@@ -44,3 +44,15 @@ This code repository implements the training and evaluation pipelines for the pr
 Data will be made available on request
 ## Project Structure
 Self_supervised_learning_based_convolutional_Autoencoder.ipynb # Main execution file Data/ # Data processing scripts Result/ # Output directory
+
+## Project Structure
+
+```text
+[Target variable folder]/
+├── Model_development_LTF-EDLSTM_Turbidity.ipynb      # Training notebook for the proposed LTF-EDLSTM model
+├── Model_development_Singlemodel_Turbidity.ipynb     # Training notebook for the single-model baselines (LSTM, GRU, BiLSTM)
+├── Model_development_Transformer_Turbidity.ipynb     # Training notebook for the Transformer model
+├── Model_development_TFT_Turbidity.ipynb             # Training notebook for the Temporal Fusion Transformer (TFT)
+├── Performance_Check_Turbidity.ipynb                 # Performance evaluation and visualization for the final selected models
+└── Model/                                            # Saved pickle files for trained models under different hyperparameter settings
+
