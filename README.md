@@ -34,12 +34,12 @@ This code repository implements the training and evaluation pipelines for the pr
 
 7. For other prediction targets, use the corresponding performance check notebook with `Turbidity` replaced by `WTemp` or `pH`.
 ### Key Parameters to Modify
-- 'hidden_dims'
-- 'batch_size'
-- 'num_layer'
-- 'learning_rate'
-- 'known_feature_dim'
-- 'loss_nam'
+- `hidden_dims`
+- `batch_size`
+- `num_layer`
+- `learning_rate`
+- `known_feature_dim`
+- `loss_nam`
 ## Data
 Data will be made available on request
 ## Project Structure
