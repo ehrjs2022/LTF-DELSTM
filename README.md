@@ -43,26 +43,8 @@ This code repository implements the training and evaluation pipelines for the pr
 ## Data
 Data will be made available on request
 ## Project Structure
-```text
-Project/
-├── Turbidity/
-│   ├── Model_development_LTF-EDLSTM_Turbidity.ipynb
-│   ├── Model_development_Singlemodel_Turbidity.ipynb
-│   ├── Model_development_Transformer_Turbidity.ipynb
-│   ├── Model_development_TFT_Turbidity.ipynb
-│   ├── Performance_Check_Turbidity.ipynb
-│   └── Model/
-├── WTemp/
-│   ├── Model_development_LTF-EDLSTM_WTemp.ipynb
-│   ├── Model_development_Singlemodel_WTemp.ipynb
-│   ├── Model_development_Transformer_WTemp.ipynb
-│   ├── Model_development_TFT_WTemp.ipynb
-│   ├── Performance_Check_WTemp.ipynb
-│   └── Model/
-├── pH/
-│   ├── Model_development_LTF-EDLSTM_pH.ipynb
-│   ├── Model_development_Singlemodel_pH.ipynb
-│   ├── Model_development_Transformer_pH.ipynb
-│   ├── Model_development_TFT_pH.ipynb
-│   ├── Performance_Check_pH.ipynb
-│   └── Model/
+- `Turbidity/`, `WTemp/`, `pH/`: target-specific folders for each prediction variable
+  - `Model_development_*.ipynb`: notebooks for model training and development
+  - `Performance_Check_*.ipynb`: notebooks for reproducing the final performance and visualization results used in the paper
+  - `Model/`: saved trained model files for different hyperparameter settings
+  - `SaaW_WQ/`: shared modules for model training, evaluation, performance analysis, and visualization
